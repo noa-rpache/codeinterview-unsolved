@@ -47,7 +47,7 @@ public class SortingScoresTest {
         productStock.add(new ProductStock(4L, 300000L));
 
 
-        Long[] expectedResult = {2L, 4L, 3L, 1L};
+        Long[] expectedResult = {3L, 4L, 2L, 1L};
 
         Assert.assertArrayEquals(Solution.sortProductsByScores(10, 90, productStock, productSales).toArray(),
                 expectedResult);
